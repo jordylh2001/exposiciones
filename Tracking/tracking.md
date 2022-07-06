@@ -2,7 +2,7 @@
 
 ## 1.1. Esquema
 
-<img src="active_buzzer.jpg"
+<img src="line_tracking.jpg"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 <br>
