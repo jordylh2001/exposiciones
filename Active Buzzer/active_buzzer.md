@@ -1,10 +1,12 @@
-# Practica Active Buzzer
+# 1. Practica Active Buzzer
 
-## Esquema
+## 1.1. Esquema
 
-
-
-## Codigo
+<img src="active_buzzer.jpg"
+     alt="Esquema"
+     style="float: left; margin-right: 10px;" />
+<br>
+## 1.2. Codigo
 ```
 #include <Arduino.h>
 
