@@ -1,13 +1,13 @@
-# 1. Practica Flash Color
+# 2. Practica Flash Color
 
-## 1.1. Esquema
+## 2.1. Esquema
 
-<img src="active_buzzer.jpg"
+<img src="flash_color.jpg"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 <br>
 
-## 1.2. Codigo
+## 2.2. Codigo
 ```
 Basic code enabling cycling of the module. 
 */

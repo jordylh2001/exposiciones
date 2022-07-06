@@ -1,13 +1,13 @@
-# 1. Practica Tilt Switch
+# 3. Practica Tilt Switch
 
-## 1.1. Esquema
+## 3.1. Esquema
 
 <img src="tilt_switch.jpg"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 <br>
 
-## 1.2. Codigo
+## 3.2. Codigo
 ```
 int var;
 

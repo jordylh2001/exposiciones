@@ -1,13 +1,13 @@
-# 1. Practica Line Tracking
+# 4. Practica Line Tracking
 
-## 1.1. Esquema
+## 4.1. Esquema
 
 <img src="line_tracking.jpg"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 <br>
 
-## 1.2. Codigo
+## 4.2. Codigo
 ```
 #include <Arduino.h>
 
