@@ -1,3 +1,11 @@
+# Practica Active Buzzer
+
+## Esquema
+
+
+
+## Codigo
+```
 #include <Arduino.h>
 
 int buzzer = 21; // set the buzzer control digital IO pin
@@ -24,3 +32,4 @@ void loop()
   }
   delay(500);
 }
+```
