@@ -12,7 +12,8 @@
 * 3 x cables jumper
 * 1 x Esp32
 * 1 x Active Buzzer
-## 1.2. Codigo
+
+## 1.3. Codigo
 ``` C++
 #include <Arduino.h>
 
