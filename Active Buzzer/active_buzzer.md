@@ -7,7 +7,7 @@
      style="float: left; margin-right: 10px;" />
 <br>
 ## 1.2. Codigo
-```
+``` C++
 #include <Arduino.h>
 
 int buzzer = 21; // set the buzzer control digital IO pin
