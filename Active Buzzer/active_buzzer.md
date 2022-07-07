@@ -6,6 +6,12 @@
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 <br>
+
+## 1.2. Material
+
+* 3 x cables jumper
+* 1 x Esp32
++ 1 x Active Buzzer
 ## 1.2. Codigo
 ``` C++
 #include <Arduino.h>
