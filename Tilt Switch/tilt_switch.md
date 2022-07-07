@@ -8,7 +8,7 @@
 <br>
 
 ## 3.2. Codigo
-```
+``` C++
 int var;
 
 void setup(){
