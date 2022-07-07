@@ -9,8 +9,7 @@
 
 ## 2.2. Codigo
 ``` C++
-Basic code enabling cycling of the module. 
-*/
+//Basic code enabling cycling of the module. 
 
 int pin = 13; // select a digital pin for the LED
 //===============================================================================
