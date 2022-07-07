@@ -8,7 +8,7 @@
 <br>
 
 ## 4.2. Codigo
-```
+``` C++
 #include <Arduino.h>
 
 void setup()
