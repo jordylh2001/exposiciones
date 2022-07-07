@@ -8,7 +8,7 @@
 <br>
 
 ## 2.2. Codigo
-```
+``` C++
 Basic code enabling cycling of the module. 
 */
 
