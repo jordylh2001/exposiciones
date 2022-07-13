@@ -1,4 +1,4 @@
-# 2. Practica Flash Color
+# 2. Linear Hall
 
 ## 2.1. Materiales
 
