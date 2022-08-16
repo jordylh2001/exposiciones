@@ -12,37 +12,45 @@
 <br>
 
 ``` C++
-#define PIN_RED    23 // GIOP23
-#define PIN_GREEN  22 // GIOP22
-#define PIN_BLUE   21 // GIOP21
+#include <DHT.h>
+#define DHT_SENSOR_PIN  21 // ESP32 pin GIOP21 connected to DHT11 sensor
+#define DHT_SENSOR_TYPE DHT11
+
+DHT dht_sensor(DHT_SENSOR_PIN, DHT_SENSOR_TYPE);
 
 void setup() {
-  pinMode(PIN_RED,   OUTPUT);
-  pinMode(PIN_GREEN, OUTPUT);
-  pinMode(PIN_BLUE,  OUTPUT);
+  Serial.begin(9600);
+  dht_sensor.begin(); // initialize the DHT sensor
 }
 
 void loop() {
-  // color code #00C9CC (R = 0,   G = 201, B = 204)
-  analogWrite(PIN_RED,   0);
-  analogWrite(PIN_GREEN, 201);
-  analogWrite(PIN_BLUE,  204);
+  // read humidity
+  float humi  = dht_sensor.readHumidity();
+  // read temperature in Celsius
+  float tempC = dht_sensor.readTemperature();
+  // read temperature in Fahrenheit
+  float tempF = dht_sensor.readTemperature(true);
 
-  delay(1000); // keep the color 1 second
+  // check whether the reading is successful or not
+  if ( isnan(tempC) || isnan(tempF) || isnan(humi)) {
+    Serial.println("Failed to read from DHT sensor!");
+  } else {
+    Serial.print("Humidity: ");
+    Serial.print(humi);
+    Serial.print("%");
 
-  // color code #F7788A (R = 247, G = 120, B = 138)
-  analogWrite(PIN_RED,   247);
-  analogWrite(PIN_GREEN, 120);
-  analogWrite(PIN_BLUE,  138);
+    Serial.print("  |  ");
 
-  delay(1000); // keep the color 1 second
+    Serial.print("Temperature: ");
+    Serial.print(tempC);
+    Serial.print("°C  ~  ");
+    Serial.print(tempF);
+    Serial.println("°F");
+  }
 
-  // color code #34A853 (R = 52,  G = 168, B = 83)
-  analogWrite(PIN_RED,   52);
-  analogWrite(PIN_GREEN, 168);
-  analogWrite(PIN_BLUE,  83);
-
-  delay(1000); // keep the color 1 second
+  // wait a 2 seconds between readings
+  delay(2000);
 }
+
 
 ```
