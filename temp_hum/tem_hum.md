@@ -2,7 +2,7 @@
 
 ## 2.1. Esquema
 
-<img src="temp.png"
+<img src="temp.PNG"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 
