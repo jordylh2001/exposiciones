@@ -1,8 +1,8 @@
-# 2. Practica SMD
+# 2. Practica Temperatura y humedad
 
 ## 2.1. Esquema
 
-<img src="smd.png"
+<img src="temp.png"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 
