@@ -2,7 +2,7 @@
 
 ## 2.1. Esquema
 
-<img src="Smd.png"
+<img src="smd.png"
      alt="Esquema"
      style="float: left; margin-right: 10px;" />
 
